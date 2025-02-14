@@ -1,6 +1,6 @@
 # Non-IID Movie Recommendation
 
-This repository contains the code and resources related to the project developed for the **Recommendation Systems (BCC409)** course. The project aims to explore **Federated Learning** in scenarios with **non-IID data** (non-Independent and Identically Distributed) for the task of movie recommendation.
+This repository contains the code and resources related to the project developed for the **Recommendation Systems (BCC409)** course at **Universidade Federal de Ouro Preto (UFOP)**. The project aims to explore **Federated Learning** in scenarios with **non-IID data** (non-Independent and Identically Distributed) for the task of movie recommendation.
 
 ![python](https://img.shields.io/badge/python-3.11.0-f7ca54?style=for-the-badge&logo=python)
 ![issues](https://img.shields.io/github/issues/arthurnfmc/RecomendacaoDeFilmesNaoIID?style=for-the-badge)
@@ -32,25 +32,25 @@ The project focuses on applying **Federated Learning** techniques in Recommendat
 
 ## Technologies
 
-The project was developed using the Python programming language and the following libraries:
+The project was developed using the Python (3.11.0) programming language and the following libraries:
 
-- python==3.11.0
 - pandas==2.2.3
 - numpy==2.2.2
 - scikit-learn==1.6.1
-- tensorflow==2.6.0
-- datasets==3.1.1
+- tensorflow==2.18.0
+- datasets==3.1.0
 - flwr==1.15.1
+- flwr-datasets==0.5.0
 
-Jupyter Notebook was used for running the experiments.
+This experiment was conducted with an AMD Ryzen Threadripper 3960X (24 cores 48 threads) running at 3.70GHz and 128GB DDR4 RAM.
 
 ## Installation
 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/arthurnfmc/RecomendacaoDeFilmesNaoIID.git
-    cd RecomendacaoDeFilmesNaoIID
+    git clone https://github.com/arthurnfmc/NonIID-MovieRecommendation.git
+    cd NonIID-MovieRecommendation
     ```
 
 2. Install the dependencies:
@@ -58,8 +58,14 @@ Jupyter Notebook was used for running the experiments.
     ```bash
     pip install -r requirements.txt
     ```
+    
+3. Run!
 
-## Contributors
+   ```bash
+    python3 main.py
+    ```
+   
+## Authors
 
 - Arthur Negrão
 - Guilherme Rocha
