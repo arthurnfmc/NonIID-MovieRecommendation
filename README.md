@@ -44,6 +44,10 @@ The project was developed using the Python (3.11.0) programming language and the
 
 This experiment was conducted with an AMD Ryzen Threadripper 3960X (24 cores 48 threads) running at 3.70GHz and 128GB DDR4 RAM.
 
+## Data
+
+Data available at https://grouplens.org/datasets/movielens/ (MovieLens Latest Datasets)
+
 ## Installation
 
 1. Clone the repository:
